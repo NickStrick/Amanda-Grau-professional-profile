@@ -25,7 +25,7 @@ export function Hero({ id, eyebrow, title, subtitle, primaryCta, secondaryCta, i
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: .15 }}
-                className="h-hero-p text-muted max-w-xl mb-8"
+                className="h-hero-p text-muted text-lg max-w-xl mb-8"
               >
                 {subtitle}
               </motion.p>
