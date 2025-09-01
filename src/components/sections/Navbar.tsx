@@ -116,13 +116,6 @@ export default function Navbar() {
                 </Link>
               </li>
             ))}
-            {header.cta ? (
-              <li className="pt-2">
-                <Link href={header.cta.href} className="btn-gradient w-full" onClick={onNav}>
-                  {header.cta.label}
-                </Link>
-              </li>
-            ) : null}
           </ul>
         </div>
       </header>
