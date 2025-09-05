@@ -84,7 +84,7 @@ export default function Navbar() {
 
             {/* Mobile menu button */}
             <button
-              className="md:hidden inline-flex items-center justify-center w-9 h-9 rounded-md
+              className="md:hidden inline-flex items-center justify-center min-w-9 w-9 h-9 rounded-md
                          border border-[color-mix(in_srgb,var(--fg)_12%,transparent)]"
               aria-expanded={open}
               aria-controls="mobile-nav"

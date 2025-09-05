@@ -12,7 +12,7 @@ import image4 from '../../public/amanda/chat.png';
 export const mockSiteConfig: SiteConfig = {
   theme: { preset: "grove", radius: "xl" },
   meta: {
-    title: "Amanda Grau, BCBA",
+    title: "Amanda Grau",
     description:
       "Guided by compassion, grounded in science. Board Certified Behavior Analyst in the Chicago suburbs.",
     favicon: "/favicon.ico",
@@ -22,7 +22,7 @@ export const mockSiteConfig: SiteConfig = {
       visible:true,
       id: "hdr",
       type: "header",
-      logoText: "Amanda Grau, BCBA",
+      logoText: "Amanda Grau",
       links: [
         { label: "About", href: "#about" },
         { label: "Services", href: "#services" },
@@ -30,7 +30,7 @@ export const mockSiteConfig: SiteConfig = {
         { label: "Contact", href: "#contact" },
       ],
       cta: {
-        label: "Connect on LinkedIn",
+        label: "Connect",
         href: 'https://www.linkedin.com/in/amanda-grau-7134071a2/',
       },
       style: {
