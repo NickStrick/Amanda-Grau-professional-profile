@@ -329,6 +329,12 @@ body[data-theme="grove"]  {
       animation-play-state: paused;
       color:var(--primary);
   }
+  .btn-small {
+    @apply inline-block px-4 py-2 text-sm font-semibold rounded-full transition duration-300;
+  }
+  .btn-white-outline{
+     border:2px solid white;
+  }
   @keyframes btnunhover {
       0% {
           background-position: 0% 0%;
